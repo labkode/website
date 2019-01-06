@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div>
+	{{ if .Site.Params.selfie }}
+	<figure class="main-photo image is-128x128 is-pulled-left">
+		<img class="is-rounded" src="{{ .Site.Params.selfie }}">
+	</figure>
+	{{ end }}
+
+	<div>
+	{{ .Content }}
+	</div>
+</div>
+
+<hr>
+
+<p><strong>Latest posts</strong></p>
+{{ range first 10 .Data.Pages }}
+<a href="{{ .Permalink }}">{{ .Title }}</a></br>
+{{ end }}
+</div>
+{{ end }}

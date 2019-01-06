@@ -1,0 +1,46 @@
+{{ define "main" }}
+<div class="">
+	<div class="card-image">
+		{{ $base := .Params.imageFolder }}
+		{{ if $base }}
+		{{ $filename := "" }}
+		<div class="galleria">
+			{{ if (where (readDir $base) "Name" $filename) }}
+			{{ $filename }}
+			{{ end }}
+			{{ range readDir $base }}
+			{{ $src := (printf "%s/%s" (strings.TrimPrefix "/static" $base) .Name) }}
+			<img src="{{ $src }}" data-link="{{ $src }}" data-title="{{ .Name }}" data-description="{{ .Name }}">
+			{{ end }}
+		</div>
+		{{ end }}
+	</div>
+	<div class="card-content">
+		<div class="media">
+			<div class="media-content">
+				<p class="title is-4">{{.Title}}</p>
+				<p class="subtitle is-6">{{ .Description }}<br>{{ .Date.Format "January 2006"}}</p>
+			</div>
+			<div class="media-left">
+				<span>{{ range seq .Params.rating }}<i class="icon fas fa-heart has-text-danger"></i>{{ end }}</span>
+			</div>
+		</div>
+		<hr/>
+		<div>
+			{{ .Content }}
+		</div>
+	</div>
+</div>
+
+
+
+<script>
+	{{ if $base }}
+	(function() { 
+		Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+		Galleria.run('.galleria');
+	}());
+	{{ end }}
+</script>
+
+{{ end }}

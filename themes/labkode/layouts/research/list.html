@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div>
+{{ .Content }}
+</div>
+<hr>
+
+{{ range .Data.Pages.GroupByParam "docType" }}
+<p><strong>{{ .Key | pluralize | upper }}</strong></p>
+<br>
+
+{{ range .Pages }}
+<div class="columns">
+	<div class="column">
+	<a href="{{.Permalink }}"><div class="media-content">{{ .Title }}</div></a>
+	<span>{{ .Date.Format "January 2006,"}}</span>
+	<span>{{.Params.location}} @ {{.Params.publisher}}</span>
+	</div>
+</div>
+{{ end }}
+
+<hr>
+{{ end }}
+{{ end }}

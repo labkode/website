@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<div><strong>{{ .Title }}</strong></div>
+<div class="is-italic">{{ delimit .Params.authors ", "}}</div>
+<hr>
+<p>
+Date: {{ .Date.Format "January 2006" }}<br/>
+Publisher: {{ .Params.publisher }}<br/>
+Location: {{ .Params.location }}<br/>
+	Links:
+	{{ range .Params.links }}
+	<a href="{{.href}}"><span>{{ upper .type }}</span></a>
+	{{ end }}<br/>
+</p>
+<hr>
+<div><strong>Abstract</strong><br>{{ .Content }}</div>
+{{ end }}

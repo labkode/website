@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<div>
+{{ .Content }}
+</div>
+<hr>
+
+{{ range .Data.Pages.GroupByDate "2006" }}
+	<p><strong>{{ .Key }}</strong></p>
+	<br>
+
+	{{ range .Pages }}
+	<div class="columns">
+		<div class="column">
+			<p>
+			<a href="{{.Permalink }}">
+				{{ .Title }}
+				<span>{{ range seq .Params.rating }}<i class="icon fas fa-heart has-text-danger"></i>{{ end }}</span>
+			</a>
+			</p>
+			<span>{{ .Date.Format "January 2006"}}</span>
+		</div>
+	</div>
+	{{ end }}
+
+{{ end }}
+
+{{ end }}
+

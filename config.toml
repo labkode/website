@@ -1,0 +1,9 @@
+baseURL = "http://labkode.github.io"
+languageCode = "en-us"
+title = "Hugo González Labrador"
+theme = "labkode"
+enableRobotsTXT = true
+copyright =  "Copyright Hugo"
+
+[params]
+  selfie = "/images/selfie.jpg"

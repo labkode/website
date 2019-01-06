@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	{{- partial "head.html" . -}}
+	<body class="Site content">
+		<hr>
+		<div class="columns">
+			<div class="column is-half is-offset-one-quarter">
+				{{- partial "header.html" . -}}
+			</div>
+		</div>
+		<div class="is-clearfix"></div>
+		<div class="Site-content">
+			<div class="columns">
+				<div class="column is-half is-offset-one-quarter">
+					{{- block "main" . }}{{- end }}
+				</div>
+			</div>
+		</div>
+
+		{{- partial "footer.html" . -}}
+	</body>
+</html>
