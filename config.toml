@@ -1,4 +1,4 @@
-baseURL = "http://labkode.github.io"
+baseURL = "https://labkode.github.io"
 languageCode = "en-us"
 title = "Hugo González Labrador"
 theme = "labkode"
