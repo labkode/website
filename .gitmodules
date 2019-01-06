@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/labkode/labkode.github.io
+	branch = master
