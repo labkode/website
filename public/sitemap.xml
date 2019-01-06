@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://labkode.github.io/research/journey-mesh/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/interview-owncloud-2018/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/from-app-to-service/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/special-cernbox/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/cernbox-cloud-hub/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/data-science/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/facilitate-swan/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/gsoc-2018/</loc>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/blog/</loc>
+    <lastmod>2018-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/contact/</loc>
+    <lastmod>2018-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/</loc>
+    <lastmod>2018-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/</loc>
+    <lastmod>2018-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/voyage/</loc>
+    <lastmod>2018-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/eos-cernbox-microservices/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/cernbox-eos-driven/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/cernbox-service-krakow/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/future-microservices/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/breaking-the-monolith/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/cernbox-thesis/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/clawio/</loc>
+    <lastmod>2016-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/interview-owncloud-2016/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/clawio-talk/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/cernbox-plus-eos/</loc>
+    <lastmod>2015-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/disk-storage-at-cern/</loc>
+    <lastmod>2015-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/cernbox-oc-filecache/</loc>
+    <lastmod>2015-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/cernbox-share-not-share/</loc>
+    <lastmod>2015-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/cernbox-service/</loc>
+    <lastmod>2015-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/site-report-cernbox/</loc>
+    <lastmod>2014-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/cernbox-plus-eos-talk/</loc>
+    <lastmod>2014-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/research/big-small/</loc>
+    <lastmod>2014-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://labkode.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
