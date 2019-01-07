@@ -6,6 +6,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 hugo -t labkode 
 
 # Go To Public folder
+cp CNAME public/
 cd public
 # Add changes to git.
 git add .
